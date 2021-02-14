@@ -1,20 +1,18 @@
-/* eslint-disable */
-const colors = require('tailwindcss/colors')
+const colors = require("tailwindcss/colors")
 
 module.exports = {
-  darkMode: 'media',
+  darkMode: "media",
   theme: {
-    extend: {
-      colors: {
-        'light-blue': colors.lightBlue,
-        'blue-gray': colors.blueGray,
-        'gray': colors.trueGray,
-      },
+    colors: {
+      "lightBlue": colors.lightBlue,
+      "blueGray": colors.blueGray,
+      "coolGray": colors.coolGray,
+      "gray": colors.trueGray,
     },
   },
   variants: {},
   plugins: [
-    require('@tailwindcss/forms'),
-    require('@tailwindcss/typography'),
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/typography"),
   ],
 }
